@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C820C1E6-8306-46B2-92E4-84F9A19FD5F1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Placement_And_Training_Information_Management_System.My.MyApplication</StartupObject>
+    <RootNamespace>Placement_And_Training_Information_Management_System</RootNamespace>
+    <AssemblyName>Placement_And_Training_Information_Management_System</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Placement_And_Training_Information_Management_System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Placement_And_Training_Information_Management_System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="add_requirement.Designer.vb">
+      <DependentUpon>add_requirement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="add_requirement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="apply_drive.Designer.vb">
+      <DependentUpon>apply_drive.vb</DependentUpon>
+    </Compile>
+    <Compile Include="apply_drive.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common_Class.vb" />
+    <Compile Include="company_portal.Designer.vb">
+      <DependentUpon>company_portal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="company_portal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="company_registration.Designer.vb">
+      <DependentUpon>company_registration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="company_registration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Add_Trainning.Designer.vb">
+      <DependentUpon>frm_Add_Trainning.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Add_Trainning.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Student_Mesg_Box.Designer.vb">
+      <DependentUpon>frm_Student_Mesg_Box.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Student_Mesg_Box.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Student_Traninng_Deteails.Designer.vb">
+      <DependentUpon>frm_Student_Traninng_Deteails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Student_Traninng_Deteails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="student_portal.Designer.vb">
+      <DependentUpon>student_portal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="student_portal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Log in.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Log in.Designer.vb">
+      <DependentUpon>Log in.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainform.Designer.vb">
+      <DependentUpon>Mainform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mainform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="login_screen.Designer.vb">
+      <DependentUpon>login_screen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="login_screen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Images\register_info.Designer.vb">
+      <DependentUpon>register_info.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Images\register_info.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="student_details.Designer.vb">
+      <DependentUpon>student_details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="student_details.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="student_registration.Designer.vb">
+      <DependentUpon>student_registration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="student_registration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View_Company_Details.Designer.vb">
+      <DependentUpon>View_Company_Details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View_Company_Details.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View_Message.Designer.vb">
+      <DependentUpon>View_Message.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View_Message.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View_Student_Resumes.Designer.vb">
+      <DependentUpon>View_Student_Resumes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View_Student_Resumes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="add_requirement.resx">
+      <DependentUpon>add_requirement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apply_drive.resx">
+      <DependentUpon>apply_drive.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="company_portal.resx">
+      <DependentUpon>company_portal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="company_registration.resx">
+      <DependentUpon>company_registration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Add_Trainning.resx">
+      <DependentUpon>frm_Add_Trainning.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Student_Mesg_Box.resx">
+      <DependentUpon>frm_Student_Mesg_Box.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Student_Traninng_Deteails.resx">
+      <DependentUpon>frm_Student_Traninng_Deteails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="student_portal.resx">
+      <DependentUpon>student_portal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Log in.resx">
+      <DependentUpon>Log in.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainform.resx">
+      <DependentUpon>Mainform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login_screen.resx">
+      <DependentUpon>login_screen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\register_info.resx">
+      <DependentUpon>register_info.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="student_details.resx">
+      <DependentUpon>student_details.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="student_registration.resx">
+      <DependentUpon>student_registration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View_Company_Details.resx">
+      <DependentUpon>View_Company_Details.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View_Message.resx">
+      <DependentUpon>View_Message.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View_Student_Resumes.resx">
+      <DependentUpon>View_Student_Resumes.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Images\form-wizard-logi.jpg" />
+    <Content Include="Images\trainingplacement.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
